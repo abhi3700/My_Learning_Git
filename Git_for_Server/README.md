@@ -23,3 +23,12 @@ System - Windows 10
 * Click on Authentication of Bonobo.Git.Server and enable Anonymous Authentication.
 
 Images folder - 'Bonobo Installation images'
+
+## Advanced
+* #### Change the Settings
+	- change the default location to your choice
+	- Allow user repository creation
+	- Allow push to create repos
+	- Allow push for anonymous repos
+	- Show commit author avatar
+* 
