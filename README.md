@@ -10,5 +10,11 @@ link - https://github.com/abhi3700/My_Learning_Git/tree/master/Git_for_Server
 ## Git for Excel
 link - https://github.com/abhi3700/My_Learning_Git/tree/master/Git_for_Excel
 
+## Sublime Merge
+link - https://github.com/abhi3700/My_Learning_Git/tree/master/Sublime_Merge
+
+## Fork (Recommended)
+link - https://github.com/abhi3700/My_Learning_Git/tree/master/Fork
+
 ## REFERENCES
 * [Git advanced (text) diff: .odt, .pdf, .doc, .xls, .ppt](https://medium.com/@mbrehin/git-advanced-diff-odt-pdf-doc-xls-ppt-25afbf4f1105)
