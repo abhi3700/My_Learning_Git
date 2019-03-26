@@ -16,5 +16,8 @@ link - https://github.com/abhi3700/My_Learning_Git/tree/master/Sublime_Merge
 ## Fork (Recommended)
 link - https://github.com/abhi3700/My_Learning_Git/tree/master/Fork
 
+## Git Bash
+link - https://github.com/abhi3700/My_Learning_Git/tree/master/Git_Bash
+
 ## REFERENCES
 * [Git advanced (text) diff: .odt, .pdf, .doc, .xls, .ppt](https://medium.com/@mbrehin/git-advanced-diff-odt-pdf-doc-xls-ppt-25afbf4f1105)
