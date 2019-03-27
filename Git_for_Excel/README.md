@@ -1,4 +1,6 @@
 # Git for Excel
+> NOTE: Only applicable for file type - `*.xls*`(any file extension starting with **xls**) 
+
 ## Installation
 System - Windows 10
 
@@ -34,3 +36,10 @@ System - Windows 10
 * Check the difference - `git diff <excel-file-name.ext>`
 	> NOTE: the modified file should not be pushed by now.
 
+## Commands
+* ### Diff
+	- ##### `$ git diff f59835d:Book1.xlsx Book1.xlsx` - This shows the difference b/w `Book1.xlsx @ f59835d` and `Book1.xlsx @ latest`
+	- Difference by commit #todo
+	- Difference By date #todo
+* ### Show
+	- View a file on a Date #todo
