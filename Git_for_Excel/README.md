@@ -6,6 +6,14 @@ System - Windows 10
 * Create `xldiff.bat`
 
 	`git diff` passes seven arguments: `path`, `old-file`, `old-hex`, `old-mode`, `new-file`, `new-hex`, `new-mode`
+	```console
+	@ECHO OFF
+
+	ECHO %2 > tmp.txt
+	dir %5 /B /S >> tmp.txt
+
+	"C:\Program Files (x86)\Microsoft Office\Office15\DCF\SPREADSHEETCOMPARE" tmp.txt
+	```
 * Edit `.gitattributes` - to tell Git when to use our new custom Excel differ “excel”. 
 	```console
 	*.xls* diff=excel
