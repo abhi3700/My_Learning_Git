@@ -16,6 +16,8 @@ System - Windows 10
   - Expand `Remotes`, present on the Left Pane of Fork Application
   - Right click on `origin`
   - Click `Edit 'origin'`
+* **Global User Information**: `File >> Preferences... >> Git`. Enter _Name_, _Email address_.
+* **Local User Information**: `Repository >> Settings for This Repository...`. Enter _Name_, _Email address_.
 
 ## Shortcuts
 * <kbd>ctrl + shift + n </kbd> - Init New Repository...
