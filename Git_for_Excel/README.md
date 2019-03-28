@@ -4,6 +4,15 @@
 ## Installation
 System - Windows 10
 
+### Tools
+#### Spreadsheetcompare - available in MS Office 2013 Professional Plus
+#### [Git Xltrail](https://www.xltrail.com/client)
+#### PATHS
+	- spreadsheetcompare
+	- excel
+	- git-xltrail
+	- developer folder
+
 **Follow the Steps:**
 * Create `xldiff.bat`
 
@@ -32,7 +41,8 @@ System - Windows 10
 	[diff "excel"]
     command = F:/Developer/xldiff.bat
 	```
-	NOTE: It is recommended to save the xldiff.bat file into a Developer folder in a chosen Drive.
+>	NOTE: It is recommended to save the xldiff.bat file into a Developer folder in a chosen Drive.
+
 
 ## Demo
 * Create a git repo.
@@ -48,6 +58,11 @@ System - Windows 10
 * ### Diff
 	- ##### `$ git diff f59835d:Book1.xlsx Book1.xlsx` - This shows the difference b/w `Book1.xlsx @ f59835d` and `Book1.xlsx @ latest`
 	- Difference by commit #todo
-	- Difference By date #todo
+		+ save a 2 copies using `git show <commit>:<file-name> > <lcoal-file-copy>`
+		+ write the directories of the 2 files in `tmp.txt`
+		+ and then execute `spreadsheetcompare tmp.txt`
+	- Difference By date #todo - On same date, there could be multiple changes on a file, so going by date is little skeptical.
 * ### Show
 	- View a file on a Date #todo
+		+ save a copy using `git show <commit>:<file-name> > <lcoal-file-copy>`
+		+ `excel <local-file-copy-file>`
