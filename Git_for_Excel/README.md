@@ -56,13 +56,18 @@ System - Windows 10
 
 ## Commands
 * ### Diff
-	- ##### `$ git diff f59835d:Book1.xlsx Book1.xlsx` - This shows the difference b/w `Book1.xlsx @ f59835d` and `Book1.xlsx @ latest`
-	- Difference by commit #todo
-		+ save a 2 copies using `git show <commit>:<file-name> > <lcoal-file-copy>`
+	- Difference b/w a commit and latest - Run `xldiffc1.bat` file  
+		+ `$ git diff f59835d:Book1.xlsx Book1.xlsx` - shows the difference b/w `Book1.xlsx @ f59835d` and `Book1.xlsx @ latest`
+	- Difference b/w 2 commits - Run `xldiffc2.bat` file #todo 
+		+ save a 2 copies using `git show <commit>:<file-name> > <local-file-copy>`
 		+ write the directories of the 2 files in `tmp.txt`
 		+ and then execute `spreadsheetcompare tmp.txt`
 	- Difference By date #todo - On same date, there could be multiple changes on a file, so going by date is little skeptical.
 * ### Show
-	- View a file on a Date #todo
-		+ save a copy using `git show <commit>:<file-name> > <lcoal-file-copy>`
+	- View a file by Commit - Run `xlshowc.bat` file 
+		+ Non-binary files: `git show 1f6098c:README.md > temp_1f6098c_README.md` To view, use Git Clients - __FORK__, __Sublime Merge__.
+		+ Binary files: `git show 1f6098c:Book1.xlsx > temp_1f6098c_Book1.xlsx` >> `excel temp_1f6098c_Book1.xlsx`. It is recommended to create a batch/bash script (#todo) file in order to implement this 2 successive commands. To view, use System Application Viewer - MS Excel, MS Word. 
+	- View a file by Date - Run `xlshowc.bat` file #todo
+	> NOTE: If a file is modified multiple times on a single date, then the last modified content will be shown.
+		+ save a copy using `git show <commit>:<file-name> > <local-file-copy>`
 		+ `excel <local-file-copy-file>`
