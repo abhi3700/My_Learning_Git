@@ -7,8 +7,8 @@ link - https://github.com/abhi3700/my_coding_toolkit/blob/master/git_all.md
 ## Git for Server
 link - https://github.com/abhi3700/My_Learning_Git/tree/master/Git_for_Server
 
-## Git for Excel
-link - https://github.com/abhi3700/My_Learning_Git/tree/master/Git_for_Excel
+## Git for Office
+link - https://github.com/abhi3700/My_Learning_Git/tree/master/Git_for_Office
 
 ## Sublime Merge
 link - https://github.com/abhi3700/My_Learning_Git/tree/master/Sublime_Merge
