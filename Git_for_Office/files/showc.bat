@@ -5,7 +5,7 @@ rem ___________________________________________________
 rem The program is for showing Excel, Word file on a particular commit
 rem ___________________________________________________
 set /p commit1= Enter commit (e.g. ee3442f): 
-set /p file= Enter Filename (e.g. Book1.xlsx, Book1.docx): 
+set /p file= Enter Filename (e.g. Book1.xlsx, Word1.docx): 
 
 rem extract the extension from file param above
 for %%i in ("%file%") do (

@@ -2,11 +2,11 @@
 echo Only valid for EXCEL, WORD files
 echo,
 rem ___________________________________________________
-rem The program is for Compare Excel file on a 2 commits
+rem The program is for Compare Excel/Word file on 2 commits
 rem ___________________________________________________
 set /p commit1= Enter commit 1 (e.g. ee3442f): 
 set /p commit2= Enter commit 2 (e.g. de5b688): 
-set /p file= Enter Filename (e.g. Book1.xlsx, Book1.docx): 
+set /p file= Enter Filename (e.g. Book1.xlsx, Word1.docx): 
 
 rem extract the extension from file param above
 for %%i in ("%file%") do (
@@ -50,16 +50,16 @@ exit
 rem -------------------------WORD-----------------------------------------------
 :word
 if exist %file% (
-	rem Git Command for saving the excel file as temmporary excel file
+	rem Git Command for saving the excel file as temporary word file
 	git show %commit1%:%file% > temp_%commit1%_%file%
 
-	rem Git Command for saving the excel file as temmporary excel file
+	rem Git Command for saving the excel file as temporary word file
 	git show %commit2%:%file% > temp_%commit2%_%file%
 
 	rem Open "tempfile" & "original file" using MS Word
 	winword temp_%commit1%_%file% temp_%commit2%_%file%
 
-	rem Delete tempfile after closing Excel Application
+	rem Delete tempfile after closing Word Application
 	del temp_%commit1%_%file%
 	del temp_%commit2%_%file%
 
