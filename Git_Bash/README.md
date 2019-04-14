@@ -13,4 +13,5 @@ System - Windows 10
 	Installation (Windows OS):
 	- click on __tree.exe__ and do full installation. [Link](https://sourceforge.net/projects/gnuwin32/)
 	- Then it gets installed
+	- Ensure that the variable "F:\Softwares\GnuWin32\bin" is added to Environment variable
 	- Use in `git-bash` terminal.
