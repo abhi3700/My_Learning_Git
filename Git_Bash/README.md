@@ -15,3 +15,5 @@ System - Windows 10
 	- Then it gets installed
 	- Ensure that the variable "F:\Softwares\GnuWin32\bin" is added to Environment variable
 	- Use in `git-bash` terminal.
+* ##### `cmd`: opens a CMD inside `git-bash` terminal.
+	![](./images/switch_bw_bash_cmd.png)
